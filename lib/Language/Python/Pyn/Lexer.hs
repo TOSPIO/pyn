@@ -2,13 +2,13 @@
 -----------------------------------------------------------------------------
 -- |
 -- Module      : Language.Python.Pyn.Lexer
--- Copyright   : (c) 2009 Bernie Pope 
--- License     : BSD-style
--- Maintainer  : bjpop@csse.unimelb.edu.au
+-- Copyright   : (c) 2016 Savor d'Isavano
+-- License     : MIT
+-- Maintainer  : anohigisavay@gmail.com
 -- Stability   : experimental
 -- Portability : ghc
 --
--- Lexical analysis for Python version 2.x programs. 
+-- Lexical analysis for Pyn
 -- See: <http://www.python.org/doc/2.6/reference/lexical_analysis.html>.
 -----------------------------------------------------------------------------
 

@@ -2,9 +2,9 @@
 -----------------------------------------------------------------------------
 -- |
 -- Module      : Language.Python.Pyn.Parser.Parser 
--- Copyright   : (c) 2009 Bernie Pope 
--- License     : BSD-style
--- Maintainer  : bjpop@csse.unimelb.edu.au
+-- Copyright   : (c) 2016 Savor d'Isavano
+-- License     : MIT
+-- Maintainer  : anohigisavay@gmail.com
 -- Stability   : experimental
 -- Portability : ghc
 --
