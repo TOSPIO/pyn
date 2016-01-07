@@ -12,7 +12,7 @@ Given:
 class Qaslkdjfenurbasdfkjalsrke(object): pass
 def g(a: Qaslkdjfenurbasdfkjalsrke, b: Qaslkdjfenurbasdfkjalsrke  = 100) -> int: pass
 class Goddamn(object):
-    __metaclass=                           type
+    __metaclass__=                           type
     @staticmethod
     def        u              (a       ,  b       ):
             if a     < b: return       b-    a
@@ -35,7 +35,7 @@ class Qaslkdjfenurbasdfkjalsrke(object):
 def g(a:Qaslkdjfenurbasdfkjalsrke , b:Qaslkdjfenurbasdfkjalsrke =100) -> int:
     pass
 class Goddamn(object):
-    __metaclass = type
+    __metaclass__ = type
     @staticmethod
     def u(a, b):
         if a < b:
