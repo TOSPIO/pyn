@@ -56,4 +56,4 @@ Not what it's supposed to act as though :)
 
 ## Acknowledgements
 
-## Many thanks to [](https://github.com/bjpop/language-python) by @bjpop
+Many thanks to [](https://github.com/bjpop/language-python) by @bjpop
