@@ -10,7 +10,7 @@ Given:
 
 ```python
 class Qaslkdjfenurbasdfkjalsrke(object): pass
-def g(a: Qaslkdjfenurbasdfkjalsrke, b: Qaslkdjfenurbasdfkjalsrke) -> int: pass
+def g(a: Qaslkdjfenurbasdfkjalsrke, b: Qaslkdjfenurbasdfkjalsrke  = 100) -> int: pass
 class Goddamn(object):
     __metaclass=                           type
     @staticmethod
@@ -32,7 +32,7 @@ Outputs:
 ```python
 class Qaslkdjfenurbasdfkjalsrke(object):
     pass
-def g(a:Qaslkdjfenurbasdfkjalsrke , b:Qaslkdjfenurbasdfkjalsrke ) -> int:
+def g(a:Qaslkdjfenurbasdfkjalsrke , b:Qaslkdjfenurbasdfkjalsrke =100) -> int:
     pass
 class Goddamn(object):
     __metaclass = type
