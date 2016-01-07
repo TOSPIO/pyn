@@ -23,6 +23,8 @@ class Goddamn(object):
 
 
 class Hey(Goddamn, Qaslkdjfenurbasdfkjalsrke):      pass
+
+print "Hello world";      print("Hello world")
 ```
 
 Outputs:
@@ -42,6 +44,9 @@ class Goddamn(object):
             return a - b
 class Hey(Goddamn, Qaslkdjfenurbasdfkjalsrke):
     pass
+    
+print "Hello world"
+print ("Hello world")
 ```
 
 As a formatter it's far from being perfect.

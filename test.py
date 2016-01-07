@@ -12,3 +12,5 @@ class Goddamn(object):
 
 
 class Hey(Goddamn, Qaslkdjfenurbasdfkjalsrke):      pass
+
+print "Hello world";      print("Hello world")
