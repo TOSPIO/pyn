@@ -6,7 +6,7 @@ version:             0.0.1.0
 synopsis:            Python 2.7 with type-annotations
 -- description:         
 homepage:            https://github.com/TOSPIO/pyn
-license:             MIT
+license:             BSD3
 license-file:        LICENSE
 author:              Savor d'Isavano
 maintainer:          anohigisavay@gmail.com
@@ -42,11 +42,14 @@ library
                      , array >= 0.4 && < 0.6
                      , transformers >= 0.3 && < 0.5
                      , monads-tf == 0.1.*
+                     , template-haskell >= 2.10 && < 2.11
                      , utf8-string >= 1 && < 2
   build-tools:       happy, alex
   exposed-modules:   Language.Python.Common
                      Language.Python.Common.ParseError
+                     Language.Python.Common.PrettyParseError
                      Language.Python.Common.SrcLocation
+                     Language.Python.Common.StringEscape
                      Language.Python.Common.Pretty
                      Language.Python.Common.Token
                      Language.Python.Common.ParserMonad
@@ -62,10 +65,10 @@ library
                      Language.Python.Pyn
                      Language.Python.Pyn.Parser
                      Language.Python.Pyn.Lexer
-                     Language.Python.Common.PrettyParseError
-                     Language.Python.Common.StringEscape
+                     Language.Python.Pyn.Visit
   other-modules:     Language.Python.Common.ParserUtils
                      Language.Python.Common.LexerUtils
+                     Language.Python.Common.Utils
       -- Language.Python.Version3.Parser.Parser
       -- Language.Python.Version3.Parser.Lexer
       -- Language.Python.Version2.Parser.Parser
