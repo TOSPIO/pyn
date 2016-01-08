@@ -1,4 +1,6 @@
 # Pyn
+[![Build Status](https://travis-ci.org/TOSPIO/pyn.svg?branch=master)](https://travis-ci.org/TOSPIO/pyn)]
+
 Python 2.7 with annotations
 
 
