@@ -1,8 +1,14 @@
 # Pyn
 [![Build Status](https://travis-ci.org/TOSPIO/pyn.svg?branch=dev)](https://travis-ci.org/TOSPIO/pyn)
 
-Python 2.7 with annotations
+Python 2.7 with annotations support
 
+## Travis CI
+
+| Branch | Status |
+| ------ | ------ |
+| master | [![Build Status](https://travis-ci.org/TOSPIO/pyn.svg?branch=master)](https://travis-ci.org/TOSPIO/pyn) |
+| dev    | [![Build Status](https://travis-ci.org/TOSPIO/pyn.svg?branch=dev)](https://travis-ci.org/TOSPIO/pyn) |
 
 ## Current status
 
