@@ -1,17 +1,17 @@
 {
 -----------------------------------------------------------------------------
 -- |
--- Module      : Language.Python.Pyn.Parser.Lexer 
--- Copyright   : (c) 2016 Savor d'Isavano 
--- License     : MIT
+-- Module      : Language.Python.Pyn.Parser.Lexer
+-- Copyright   : (c) 2016 Savor d'Isavano
+-- License     : BSD3
 -- Maintainer  : anohigisavay@gmail.com
 -- Stability   : experimental
 -- Portability : ghc
 --
--- Pyn lexer
+-- Pyn lexer.
 -----------------------------------------------------------------------------
 
-module Language.Python.Pyn.Parser.Lexer 
+module Language.Python.Pyn.Parser.Lexer
    (initStartCodeStack, lexToken, endOfFileToken, lexCont) where
 
 import Language.Python.Common.Token as Token

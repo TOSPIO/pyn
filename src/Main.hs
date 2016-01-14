@@ -6,15 +6,19 @@ import Language.Python.Pyn.Parser ( parseModule
 import Language.Python.Common.PrettyAST ()
 import Language.Python.Common.Pretty ( prettyText
                                      )
+import Language.Python.Pyn.Visit ( visit
+                                 , Visit ()
+                                 , VisitOptions (..))
 
-nextLine = print $ replicate 20 '='
+
+splitto = putStrLn $ replicate 20 '='
 
 main :: IO ()
 main = do
   args <- getArgs
   let fn = head args
   content <- readFile fn
-  let (Right (ast, _)) = parseModule content fn
-  print ast
-  nextLine
-  putStrLn $ prettyText ast
+  let pm = parseModule content fn
+  let (Right (ast, additions)) = pm
+  let ast' = visit (VisitOptions {enableTypeCheck=True}) ast
+  putStrLn $ prettyText ast'

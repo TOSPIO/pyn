@@ -1,8 +1,8 @@
 {-# LANGUAGE FlexibleInstances, TypeSynonymInstances, CPP, DeriveDataTypeable, DeriveFunctor #-}
 -----------------------------------------------------------------------------
 -- |
--- Module      : Language.Python.Version2.Syntax.AST 
--- Copyright   : (c) 2009 Bernie Pope 
+-- Module      : Language.Python.Common.AST
+-- Copyright   : (c) 2009 Bernie Pope
 -- License     : BSD-style
 -- Maintainer  : bjpop@csse.unimelb.edu.au
 -- Stability   : experimental

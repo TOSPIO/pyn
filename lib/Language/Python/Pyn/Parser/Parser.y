@@ -3,12 +3,12 @@
 -- |
 -- Module      : Language.Python.Pyn.Parser.Parser 
 -- Copyright   : (c) 2016 Savor d'Isavano
--- License     : MIT
+-- License     : BSD3
 -- Maintainer  : anohigisavay@gmail.com
 -- Stability   : experimental
 -- Portability : ghc
 --
--- Pyn parser
+-- Pyn parser.
 -----------------------------------------------------------------------------
 
 module Language.Python.Pyn.Parser.Parser (parseFileInput, parseSingleInput, parseEval) where
