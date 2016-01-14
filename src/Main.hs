@@ -18,12 +18,7 @@ main = do
   args <- getArgs
   let fn = head args
   content <- readFile fn
-  let (Right (ast, additions)) = parseModule content fn
-  let ast' = visit (VisitOptions []) ast
-  print ast'
-  splitto
-  print additions
-  splitto
+  let pm = parseModule content fn
+  let (Right (ast, additions)) = pm
+  let ast' = visit (VisitOptions {enableTypeCheck=True}) ast
   putStrLn $ prettyText ast'
-  splitto
-  putStrLn "Goodbye"
