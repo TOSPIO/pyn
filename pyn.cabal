@@ -45,7 +45,7 @@ library
                      , text-format >= 0.3 && < 0.4
                      , transformers >= 0.3 && < 0.5
                      , monads-tf == 0.1.*
-                     , template-haskell >= 2.10 && < 2.11
+                     , template-haskell >= 2.9 && < 2.11
                      , utf8-string >= 1 && < 2
   build-tools:       happy, alex
   exposed-modules:   Language.Python.Common
